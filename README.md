@@ -1,3 +1,3 @@
-# Assignment Title Goes Here
+# 221-sp23-hw02
 
-Info about your assignment goes here
+COMP 221 Spring 2023 Homework 1: HackerRank and Performance Analyzer
