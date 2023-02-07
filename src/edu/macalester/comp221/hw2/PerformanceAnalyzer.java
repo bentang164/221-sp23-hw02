@@ -11,7 +11,7 @@ public class PerformanceAnalyzer {
         Map<Integer, Long> avgTime = new HashMap<>();
         System.out.println("\nAssessing performance of selected add operation.\n");
 
-        for (int n = 1; n <= 1000000; n *= 10) {
+        for (int n = 1; n <= 100000000; n *= 10) {
             System.out.println("Testing n = " + n);
 
             long start = 0;
@@ -72,7 +72,7 @@ public class PerformanceAnalyzer {
         Map<Integer, Long> avgTime = new HashMap<>();
         System.out.println("\nAssessing performance of selected removal operation.\n");
 
-        for (int n = 1; n <= 100000; n *= 10) {
+        for (int n = 1; n <= 100000000; n *= 10) {
             System.out.println("Testing n = " + n);
             
             long start = 0;
